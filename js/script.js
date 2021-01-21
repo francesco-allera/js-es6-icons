@@ -102,13 +102,34 @@ const arrayOfObjects = [
 
 const iconContainer = document.getElementById('container');
 
+// arrayOfObjects.forEach((item) => {
+//   iconContainer.innerHTML += `
+//   <div class="box-icon">
+//     <i class="${item.prefix}${item.name} style="color: black"></i>
+//     <div>${item.name.toUpperCase()}</div>
+//   </div>
+//   `
+// });
+
+// MILESTONE 2
+const arrayOfColours = ['green', 'brown', 'black'];
+
 arrayOfObjects.forEach((item) => {
+  let iconColor;
+  if (item.type === 'animal') {
+    iconColor = arrayOfColours[1];
+  }
+  if (item.type === 'food') {
+    iconColor = arrayOfColours[0];
+  }
+  if (item.type === 'person') {
+    iconColor = arrayOfColours[2];
+  }
+
   iconContainer.innerHTML += `
   <div class="box-icon">
-    <i class="${item.prefix}${item.name} style="color: black"></i>
+    <i class="${item.prefix}${item.name}" style="color:${iconColor}"></i>
     <div>${item.name.toUpperCase()}</div>
   </div>
   `
 });
-
-// MILESTONE 2
