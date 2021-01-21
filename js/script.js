@@ -112,15 +112,15 @@ const iconContainer = document.getElementById('container');
 // });
 
 // MILESTONE 2
-const arrayOfColours = ['green', 'brown', 'black'];
+const arrayOfColours = ['blue', 'orange', 'purple'];
 
 arrayOfObjects.forEach((item) => {
   let iconColor;
   if (item.type === 'animal') {
-    iconColor = arrayOfColours[1];
+    iconColor = arrayOfColours[0];
   }
   if (item.type === 'food') {
-    iconColor = arrayOfColours[0];
+    iconColor = arrayOfColours[1];
   }
   if (item.type === 'person') {
     iconColor = arrayOfColours[2];
