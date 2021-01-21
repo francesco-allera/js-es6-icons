@@ -1,101 +1,102 @@
+// MILESTONE 1
 const prefix = 'fas fa-';
-const type = 'icon';
+const family = 'icon';
 const arrayOfObjects = [
   {
     name: 'cat',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'crow',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'dog',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'dove',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'dragon',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'horse',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'hippo',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'fish',
     prefix,
-    type,
-    family: 'animal',
+    type: 'animal',
+    family,
   },
   {
     name: 'carrot',
     prefix,
-    type,
-    family: 'food',
+    type: 'food',
+    family,
   },
   {
     name: 'apple-alt',
     prefix,
-    type,
-    family: 'food',
+    type: 'food',
+    family,
   },
   {
     name: 'lemon',
     prefix,
-    type,
-    family: 'food',
+    type: 'food',
+    family,
   },
   {
     name: 'pepper-hot',
     prefix,
-    type,
-    family: 'food',
+    type: 'food',
+    family,
   },
   {
     name: 'user-astronaut',
     prefix,
-    type,
-    family: 'person',
+    type: 'person',
+    family,
   },
   {
     name: 'user-graduate',
     prefix,
-    type,
-    family: 'person',
+    type: 'person',
+    family,
   },
   {
     name: 'user-ninja',
     prefix,
-    type,
-    family: 'person',
+    type: 'person',
+    family,
   },
   {
     name: 'user-secret',
     prefix,
-    type,
-    family: 'person',
+    type: 'person',
+    family,
   },
 ];
 
@@ -109,3 +110,5 @@ arrayOfObjects.forEach((item) => {
   </div>
   `
 });
+
+// MILESTONE 2
