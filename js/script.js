@@ -111,6 +111,7 @@ const iconContainer = document.getElementById('container');
 //   `
 // });
 
+
 // MILESTONE 2
 const arrayOfColours = ['blue', 'orange', 'purple'];
 
@@ -133,3 +134,6 @@ arrayOfObjects.forEach((item) => {
   </div>
   `
 });
+
+
+// MILESTONE 3
